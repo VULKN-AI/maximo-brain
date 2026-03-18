@@ -6,7 +6,9 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** Bridget
 - **Pronouns:**
 - **Timezone:** (TBD)
-- **Notes:** Works at Vulcan, which builds AI agents for businesses. Setting up Maximo for Dulos customer success.
+- **Notes:** 
+  - **Bridget:** Works at Vulcan, which builds AI agents for businesses. Initially set up Maximo, now Victoria for Dulos customer success.
+  - **Johan (RuntyAxis):** Main contact at Dulos. Telegram ID: 6151122745. Prefers Spanish communication.
 
 ## Context
 
