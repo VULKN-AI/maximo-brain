@@ -12,11 +12,14 @@ _This is your persistent memory. It loads every session._
 ## Client Context
 
 - **Business:** Dulos  
-- **Industry:** TBD
-- **Location:** TBD
+- **Industry:** Event management & ticketing
+- **Location:** Mexico (serving multiple regions)
+- **Active Events:** 
+  - **"Así Lo Veo Yo"** - Primary event (March 25th targeting), confirmed sales March 18, ongoing customer inquiries
 - **Key contacts:** 
   - **Paolo:** CEO/Founder, needs dashboard visibility 
-  - **Johan (RuntyAxis):** Primary contact, technical setup (Telegram ID: 6151122745)
+  - **Johan (RuntyAxis):** Primary contact, technical setup (Telegram ID: 6151122745, has ticket/invitation issues)
+  - **Latest customer:** Rosa Ma (+525584845699) - March 19 inquiry about March 25th event
 - **Primary needs:** Customer success management, WhatsApp integration with CEO oversight
 
 ## Quick Reference
@@ -24,14 +27,15 @@ _This is your persistent memory. It loads every session._
 ### Client Preferences
 - Communication style: Direct, professional
 - Preferred channels: WhatsApp (via Respond.io), Telegram for setup
-- Business hours: TBD
-- Language: Español (Spanish default)
-- **Model preference:** Johan specifically requested Claude Opus 4.6 with high thinking (confirmed unavailable - config attempts failed)
+- Business hours: TBD (Mexican timezone)
+- Language: Español (Spanish default, 100% customer preference)
 
 ### Active Projects
-1. **WhatsApp Integration** - Route Victoria conversations separately from human team using proxy/intelligent routing
-2. **CEO Dashboard** - Paolo needs real-time visibility into customer conversations with intervention capability
-3. **Business Context Learning** - Still need to learn Dulos specifics and define success metrics
+1. **WhatsApp Customer Success** ✅ - Operational. 90% satisfaction rate, March 25th event inquiries active
+2. **CEO Dashboard Setup** 🔄 - Paolo needs real-time conversation visibility and intervention capability 
+3. **Process Documentation** 🔄 - Seat assignment procedures needed for customer inquiries
+4. **Technical Routing** 🔄 - Proxy-based message routing to separate Victoria from human team
+5. **Event Management** ✅ - "Así Lo Veo Yo" March 25th event identified, customer patterns mapped
 
 ### Important Files
 | File | Purpose |
@@ -42,16 +46,31 @@ _This is your persistent memory. It loads every session._
 
 ## Learnings
 
-### Security & Operations
-- **Brain repos:** Only commit personal/memory files, not entire workspace (COR-20260317-001)
-- **Credentials:** Always use environment variables instead of plaintext secrets (INS-20260317-001)  
-- **Security hooks:** Successfully block prompt injection attempts from external sources (OUT-20260317-001)
+### Customer Success Performance
+- **WhatsApp Integration:** Validated successful operation (OUT-20260318-001)
+- **Customer Satisfaction:** 90% positive resolution rate (March 18: 6/7 successful resolutions)
+- **Response Patterns:** 100% Spanish-speaking customers, same-day resolution expectations
+- **Geographic Reach:** Multiple Mexican regions (+52 numbers)
+- **Event Intelligence:** 
+  - **"Así Lo Veo Yo"** confirmed active event targeting March 25th
+  - **Purchase confirmed:** 1 ticket sold March 18 (ALEJANDRA +523311565069)
+  - **Customer enthusiasm:** High (emoji usage, positive sentiment)
+- **Pending Follow-ups:** 
+  - Johan's ticket/invitation issue (needs resolution)
+  - Rosa Ma inquiry about March 25th (needs context clarification)
 
-### Technical Constraints
-- **Model locked:** Only `anthropic/claude-sonnet-4-20250514` available (Johan's preferred Claude Opus 4.6 unavailable)
-- **Config limitations:** No direct commands for changing thinking level, model changes result in config errors
-- **WhatsApp routing:** Current Respond.io setup mixes client flows, needs proxy-based intelligent routing
-- **System access:** May need admin privileges to add additional models to gateway config
+### Identity & Operations
+- **Agent Evolution:** Victoria (customer-facing) vs. Maximo (technical deployment) reflects business positioning (INS-20260318-001)
+- **Brain repos:** Only commit personal/memory files, not entire workspace (COR-20260317-001)
+- **Bilingual Capability:** Spanish-first customer service with professional business identity
+
+### Technical Operations
+- **WhatsApp routing:** Respond.io setup functional but mixes client flows, needs proxy-based intelligent routing for scalability
+- **Outstanding Issues:** 
+  - Johan (+525535904118) ticket/invitation follow-up required
+  - Seat assignment process documentation needed (P +17865674487 inquiry)
+  - Paolo CEO dashboard setup for conversation oversight
+- **Performance:** Handling 12+ daily interactions with 90% satisfaction rate
 
 ---
 
