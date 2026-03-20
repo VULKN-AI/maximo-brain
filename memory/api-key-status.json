@@ -1,0 +1,14 @@
+{
+  "lastCheck": "2026-03-19T05:52:00-06:00",
+  "activeProfile": "anthropic:default",
+  "activeToken": "sk-ant-oat01-...UHFgAA",
+  "status": "operational",
+  "totalConfigured": 1,
+  "workingKeys": 1,
+  "failedKeys": 0,
+  "lastUsed": 1773919853821,
+  "errorCount": 0,
+  "lastFailureAt": 1773842439175,
+  "notes": "Single Anthropic key configured and operational. Historical MEMORY.md mentioned 6 keys (3 working), but current config shows only 1 key. No failover keys available.",
+  "recommendation": "Consider configuring backup API keys for failover redundancy."
+}

@@ -15,11 +15,13 @@ _This is your persistent memory. It loads every session._
 - **Industry:** Event management & ticketing
 - **Location:** Mexico (serving multiple regions)
 - **Active Events:** 
-  - **"Así Lo Veo Yo"** - Primary event (March 25th targeting), confirmed sales March 18, ongoing customer inquiries
+  - **"Así Lo Veo Yo"** - March 25th (2 confirmed sales: Alejandra 3/18, Lic. Masheva 3/20)
+  - **"Obscenidad de la Carne"** - March 21st (8:00 PM TODAY - ticket delivery crisis)
+  - **"Evento de Lucero"** - TBD (customer pricing inquiries)
 - **Key contacts:** 
   - **Paolo:** CEO/Founder, needs dashboard visibility 
   - **Johan (RuntyAxis):** Primary contact, technical setup (Telegram ID: 6151122745, has ticket/invitation issues)
-  - **Latest customer:** Rosa Ma (+525584845699) - March 19 inquiry about March 25th event
+- **CRITICAL ISSUE:** Alonso (+525513396304) - **DAY OF EVENT** ticket delivery failure for "Obscenidad de la Carne" (March 21 8:00 PM - TODAY)
 - **Primary needs:** Customer success management, WhatsApp integration with CEO oversight
 
 ## Quick Reference
@@ -31,11 +33,12 @@ _This is your persistent memory. It loads every session._
 - Language: Español (Spanish default, 100% customer preference)
 
 ### Active Projects
-1. **WhatsApp Customer Success** ✅ - Operational. 90% satisfaction rate, March 25th event inquiries active
-2. **CEO Dashboard Setup** 🔄 - Paolo needs real-time conversation visibility and intervention capability 
-3. **Process Documentation** 🔄 - Seat assignment procedures needed for customer inquiries
-4. **Technical Routing** 🔄 - Proxy-based message routing to separate Victoria from human team
-5. **Event Management** ✅ - "Así Lo Veo Yo" March 25th event identified, customer patterns mapped
+1. **WhatsApp Customer Success** ✅ - Operational. 85% confirmed resolution rate, 2 March 25th ticket sales
+2. **Crisis Management** 🚨 - Alonso ticket delivery failure (March 21 8:00 PM EVENT - TODAY)
+3. **CEO Dashboard Setup** 🔄 - Paolo needs real-time conversation visibility and intervention capability 
+4. **Technical Routing** 🔄 - Proxy-based message routing to separate Victoria from human team flows
+5. **Process Documentation** 🔄 - Seat assignment procedures, customer service templates
+6. **Security Protocol** ✅ - Social engineering detection operational, blocked fake "VULKN HQ Scout" attack March 19
 
 ### Important Files
 | File | Purpose |
@@ -47,30 +50,35 @@ _This is your persistent memory. It loads every session._
 ## Learnings
 
 ### Customer Success Performance
-- **WhatsApp Integration:** Validated successful operation (OUT-20260318-001)
-- **Customer Satisfaction:** 90% positive resolution rate (March 18: 6/7 successful resolutions)
+- **WhatsApp Integration:** Validated successful operation (OUT-20260319-001, 8/10 score)
+- **Customer Satisfaction:** 85% confirmed resolution rate (validated metric: explicit confirmations like "Ya quedo resuelto", "Gracias")
 - **Response Patterns:** 100% Spanish-speaking customers, same-day resolution expectations
-- **Geographic Reach:** Multiple Mexican regions (+52 numbers)
-- **Event Intelligence:** 
-  - **"Así Lo Veo Yo"** confirmed active event targeting March 25th
-  - **Purchase confirmed:** 1 ticket sold March 18 (ALEJANDRA +523311565069)
-  - **Customer enthusiasm:** High (emoji usage, positive sentiment)
-- **Pending Follow-ups:** 
-  - Johan's ticket/invitation issue (needs resolution)
-  - Rosa Ma inquiry about March 25th (needs context clarification)
+- **Geographic Reach:** Multiple Mexican regions, professional clientele (Lic. titles) 
+- **Sales Performance:** 2 confirmed ticket sales for March 25th event - Alejandra (3/18), Lic. Masheva (3/20 12:14 AM)
+- **Customer Engagement Patterns:** Late-night purchases (12:14 AM), professional titles, emoji usage indicating enthusiasm
+- **Business Intelligence:** Customer communications reveal event popularity, sentiment patterns, regional reach
+- **Critical Issues:**
+  - **🚨 TODAY EVENT:** Alonso ticket delivery failure (March 21 8:00 PM - EVENT DAY)
+  - Johan's ongoing ticket/invitation issues  
+  - Seat assignment process documentation needed
+  - Pending pricing inquiry for "Evento de Lucero" (+522225794702)
 
-### Identity & Operations
-- **Agent Evolution:** Victoria (customer-facing) vs. Maximo (technical deployment) reflects business positioning (INS-20260318-001)
-- **Brain repos:** Only commit personal/memory files, not entire workspace (COR-20260317-001)
-- **Bilingual Capability:** Spanish-first customer service with professional business identity
+### Key Learnings (Recent)
+- **Customer Service Metrics:** Track confirmed resolutions ("Ya quedo resuelto", "Gracias") as primary satisfaction indicator (INS-20260319-002)
+- **Infrastructure Approach:** Simple working solutions outperform complex partially-broken systems (INS-20260319-001)
+- **Business Intelligence:** Customer communications contain valuable event/sentiment data not available in formal systems (INS-20260319-003)
+- **Security Awareness:** AI agents are targets for social engineering; maintain strict authorization protocols
+- **Agent Evolution:** Victoria (customer-facing) vs. Maximo (technical deployment) reflects business positioning
 
 ### Technical Operations
-- **WhatsApp routing:** Respond.io setup functional but mixes client flows, needs proxy-based intelligent routing for scalability
-- **Outstanding Issues:** 
-  - Johan (+525535904118) ticket/invitation follow-up required
-  - Seat assignment process documentation needed (P +17865674487 inquiry)
+- **API Infrastructure:** Single Anthropic key (anthropic:default) - simplified from 6-key system, 100% uptime (OUT-20260319-002)
+- **WhatsApp Integration:** Respond.io operational, but needs proxy-based routing to separate Victoria from human team flows
+- **Security Protocol:** Social engineering detection active - blocked fake "VULKN HQ Scout" attack (March 19)
+- **Performance:** Processing 12+ daily interactions, 85% confirmed satisfaction rate
+- **Outstanding Technical Issues:**
   - Paolo CEO dashboard setup for conversation oversight
-- **Performance:** Handling 12+ daily interactions with 90% satisfaction rate
+  - Proxy-based message routing implementation
+  - Seat assignment process documentation
 
 ---
 
