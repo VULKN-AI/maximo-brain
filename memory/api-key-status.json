@@ -1,14 +1,15 @@
 {
-  "lastCheck": "2026-03-19T05:52:00-06:00",
+  "lastCheck": "2026-03-21T17:29:00-06:00",
   "activeProfile": "anthropic:default",
-  "activeToken": "sk-ant-oat01-...UHFgAA",
+  "activeToken": "sk-ant...UHFgAA",
   "status": "operational",
-  "totalConfigured": 1,
-  "workingKeys": 1,
-  "failedKeys": 0,
-  "lastUsed": 1773919853821,
-  "errorCount": 0,
-  "lastFailureAt": 1773842439175,
-  "notes": "Single Anthropic key configured and operational. Historical MEMORY.md mentioned 6 keys (3 working), but current config shows only 1 key. No failover keys available.",
-  "recommendation": "Consider configuring backup API keys for failover redundancy."
+  "totalConfigured": 10,
+  "workingKeys": 5,
+  "failedKeys": 5,
+  "validKeys": ["ANTHROPIC_API_KEY", "ANTHROPIC_API_KEY_1", "ANTHROPIC_API_KEY_4", "ANTHROPIC_API_KEY_7", "ANTHROPIC_API_KEY_9"],
+  "invalidKeys": ["ANTHROPIC_API_KEY_2", "ANTHROPIC_API_KEY_3", "ANTHROPIC_API_KEY_5", "ANTHROPIC_API_KEY_6", "ANTHROPIC_API_KEY_8"],
+  "invalidReason": "authentication_error: invalid x-api-key (HTTP 401)",
+  "lastFailover": "none detected this check",
+  "notes": "5 of 10 env var keys pass authentication. OpenClaw config only has 1 auth profile (anthropic:default). The 5 invalid keys return 401 authentication_error. System is operational — currently running on claude-opus-4-6 without issues.",
+  "recommendation": "Consider removing or replacing the 5 invalid keys (2,3,5,6,8). Configure additional auth profiles in OpenClaw for failover redundancy."
 }

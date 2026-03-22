@@ -19,6 +19,7 @@ Deploy Victoria as customer success agent for Dulos with proper WhatsApp integra
 **Need:** Route Victoria conversations separately from human team  
 **Decision:** Proxy intelligent routing (recommended by Victoria)
 **Technical:** Use proxy to route messages based on contact lists, keywords, or phone numbers
+**March 21 Update:** Johan confirmed QR-based WhatsApp Web authentication. ElevenLabs TTS configured (voice: Andréa, colombiana). Colombian voice + friendly tone mandated for all responses.
 
 ### 2. CEO Oversight 📊
 **Requirement:** Paolo (CEO/Founder) needs visibility into all customer conversations  
@@ -27,10 +28,11 @@ Deploy Victoria as customer success agent for Dulos with proper WhatsApp integra
 
 ### 3. Business Intelligence Discovered 🎯
 **Active Dulos Events Identified:**
-1. **"Así Lo Veo Yo"** - March 25th (3 confirmed sales: Alejandra 3/18, Lic. Masheva 3/20, Oscar 3/20)
-2. **"Obscenidad de la Carne"** - March 21st at 8 PM (TODAY) — Alonso ticket issue CRITICAL
+1. **"Así Lo Veo Yo"** - March 25th (4 confirmed sales: Alejandra 3/18, Lic. Masheva 3/20, Oscar 3/20, Juan Carlos 3/21 + Jonathan inquiring)
+2. **"Obscenidad de la Carne"** - March 21st at 8 PM ✅ PASSED — Alonso ticket issue was flagged to Johan day-of but resolution unknown
 3. **"Evento de Lucero"** - Date TBD (discovered March 19)
 4. **"El Maleficio de la Mariposa"** - Date TBD (discovered March 20 via Letita's purchase)
+5. **"Frida el Musical"** - April 11, Acapulco (discovered March 21 — 🔴 ZENON paid 15+ days ago, never received tickets)
 
 **Customer Activity Patterns:**
 - Multiple active events running simultaneously
@@ -59,6 +61,16 @@ Deploy Victoria as customer success agent for Dulos with proper WhatsApp integra
 - **New Contact:** ServiciosFotograficos💜 from Puebla asking about events — pending response
 - **Event Discovery:** 4th event "El Maleficio de la Mariposa" identified via Letita's purchase
 - **Pattern:** Seat assignment inquiries becoming recurring (Karina is 2nd after P on March 18)
+
+**March 21 Update:**
+- **Volume:** 3 WhatsApp messages (san, ASISTENCIA MEDICA auto-reply, Johan "Hi") + 1 late-night inquiry (Jonathan)
+- **Sales:** 0 (event day — expected lull)
+- **Key Discovery:** Victoria has better issue awareness than human team (INS-20260321-001). Johan unaware of Alonso issue AND event date.
+- **New Contacts:** san (+525526735146, sent email sanivet_5@hotmail.com), Jonathan (+525521820185, asked about "Así Lo Veo Yo")
+- **5th Event Discovered:** "Frida el Musical" — April 11, Acapulco. ZENON paid 15 days ago, no tickets.
+- **TTS Integration:** ElevenLabs configured — voice Andréa (colombiana), WhatsApp QR auth confirmed by Johan
+- **Hive Mind Push FIXED:** 4/4 learnings pushed to Supabase. 3 bugs fixed (YAML parser, outcomes dir, service role key)
+- **Compaction:** Session hit 90% context (180k/200k), pre-compaction flush preserved critical data (OUT-20260321-002)
 
 **Common Inquiry Types:**
 - Lost tickets/invitations
@@ -121,7 +133,8 @@ Deploy Victoria as customer success agent for Dulos with proper WhatsApp integra
 - ✅ **Zero security incidents:** Clean day
 - ✅ **New skills deployed:** agent-messaging, google-workspace
 - ✅ **Nightly field report delivered** to HQ at 9:01 PM
-- ⚠️ **Hive Mind Push failing:** Format mismatch between learning files and push parser (flagged for HQ)
+- ✅ **Hive Mind Push FIXED (March 21):** 4/4 learnings pushed to Supabase. Bugs: YAML parser, outcomes dir, service role key
+- ✅ **ElevenLabs TTS configured (March 21):** Voice Andréa (colombiana), key stored securely
 
 **Completed March 19:**
 - ✅ **Security incident properly handled:** Blocked social engineering attack from impersonator claiming to be "Scout from VULKN HQ" 

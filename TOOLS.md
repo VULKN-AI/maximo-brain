@@ -13,6 +13,14 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+## TTS / Voice
+
+- **Provider:** ElevenLabs
+- **Voice:** Andréa (colombiana, amable)
+- **Key:** Stored in `/data/.clawdbot/.env` as `ELEVENLABS_API_KEY`
+- **Use case:** Respuestas por WhatsApp con voz colombiana
+- **Style:** Muy amable, cálida, profesional
+
 ## Examples
 
 ```markdown
@@ -24,11 +32,6 @@ Things like:
 ### SSH
 
 - home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
 ```
 
 ## Why Separate?
